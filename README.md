@@ -177,7 +177,6 @@ ZSD_SO_BACKLOG/
 
 ---
 
-## Author
 
 **Reva Sahu**  
 Roll No. 23053292 | B.Tech 2023–2027  
