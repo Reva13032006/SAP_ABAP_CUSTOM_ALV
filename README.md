@@ -5,7 +5,7 @@
 
 ---
 
-## 📋 Overview
+## Overview
 
 `ZSD_SO_BACKLOG` is a custom ABAP executable program built in the SAP ABAP Workbench (SE38) that provides a **single, live, colour-coded, drill-down enabled ALV report** for monitoring open Sales Order backlogs in SAP SD.
 
@@ -13,7 +13,7 @@ It eliminates the need for manual multi-transaction exports and Excel VLOOKUPs b
 
 ---
 
-## 🚨 Problem Statement
+## Problem Statement
 
 Standard SAP SD transactions like **VA05** (List of Sales Orders) and **VL10C** (Delivery Due List) only provide partial views:
 
@@ -26,7 +26,7 @@ Standard SAP SD transactions like **VA05** (List of Sales Orders) and **VL10C** 
 
 ---
 
-## ✅ Key Features
+## Key Features
 
 | Feature | Description |
 |---|---|
@@ -42,7 +42,7 @@ Standard SAP SD transactions like **VA05** (List of Sales Orders) and **VL10C** 
 
 ---
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 
 The program is split into five clearly separated layers:
 
@@ -77,7 +77,7 @@ The program is split into five clearly separated layers:
 
 ---
 
-## 🗄️ Database Tables Used
+## Database Tables Used
 
 | Table | Purpose |
 |---|---|
@@ -88,7 +88,7 @@ The program is split into five clearly separated layers:
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Component | Tool / Version | Role |
 |---|---|---|
@@ -103,7 +103,7 @@ The program is split into five clearly separated layers:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ZSD_SO_BACKLOG/
@@ -114,7 +114,7 @@ ZSD_SO_BACKLOG/
 
 ---
 
-## 🚀 Development Lifecycle (13 Phases)
+## Development Lifecycle (13 Phases)
 
 1. **Requirement Gathering** — Functional spec with Sales Ops team
 2. **Data Dictionary (SE11)** — Structure `ZSTR_SO_BACKLOG`, domain `ZDO_DLVRY_STATUS`, data element `ZDE_DELAY_DAYS`
@@ -132,7 +132,7 @@ ZSD_SO_BACKLOG/
 
 ---
 
-## ⚙️ How to Deploy
+## How to Deploy
 
 1. In **SE38**, create program `ZSD_SO_BACKLOG` (Type: Executable, Package: `ZSD_DEV`)
 2. Create the include programs listed above and paste the corresponding code
@@ -146,7 +146,7 @@ ZSD_SO_BACKLOG/
 
 ---
 
-## 📊 Delay Classification Logic
+## Delay Classification Logic
 
 | Delay (Days) | Status | Icon | Row Colour |
 |---|---|---|---|
@@ -157,7 +157,7 @@ ZSD_SO_BACKLOG/
 
 ---
 
-## 🔭 Future Improvements
+## Future Improvements
 
 ### Near-Term
 - Replace multi-table JOIN with `FOR ALL ENTRIES` for 50,000+ order performance
@@ -177,7 +177,7 @@ ZSD_SO_BACKLOG/
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Reva Sahu**  
 Roll No. 23053292 | B.Tech 2023–2027  
