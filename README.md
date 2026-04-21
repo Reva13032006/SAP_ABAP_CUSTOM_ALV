@@ -178,6 +178,3 @@ ZSD_SO_BACKLOG/
 ---
 
 
-**Reva Sahu**  
-Roll No. 23053292 | B.Tech 2023–2027  
-Individual Project — April 2026
